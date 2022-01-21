@@ -35,12 +35,15 @@ class _StartingPageState extends State<StartingPage> {
                 padding: EdgeInsets.all(10),
                 child: Column(
                   children: [
+                    SizedBox(
+                      height: heightMultiplier * 7,
+                    ),
                     Container(
                       width: double.infinity,
                       child: Center(
                           child: Image.asset(
                         "assets/images/logo.jpg",
-                        height: heightMultiplier * 45,
+                        height: heightMultiplier * 35,
                       )),
                     ),
                     Text("Welcome To Weight Tracker",

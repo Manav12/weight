@@ -32,7 +32,6 @@ class _RegisterPageState extends State<RegisterPage> {
     widthMultiplier = size.width / 100;
 
     return Scaffold(
-      resizeToAvoidBottomInset: false,
       backgroundColor: white,
       body: SafeArea(
         child: SingleChildScrollView(
